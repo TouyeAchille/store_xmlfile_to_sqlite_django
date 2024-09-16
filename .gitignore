@@ -8,5 +8,9 @@ xml2database/xml2database/__pycache__/
 # ignore sqlite database file
 db.sqlite3
 
+<<<<<<< HEAD
 # ignore venv
+=======
+
+>>>>>>> b31a1b8909858d84dcf4f9f31e97e6a4c34aef82
 workspace-venv/
