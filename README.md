@@ -58,10 +58,10 @@ Then login to django database
 <center><img src='./image/admin.PNG' width=600></center>
 
  Click on button `+add xml documents in django admin`, then upload your xml file, 
- <center><img src='./image/content.PNG' width=600></center>
+ <center><img src='./image/xml_upload.PNG' width=600></center>
 
 then click on contents in django admin, you can see the content of all xml file
-<center><img src='./image/xml_upload.PNG' width=600></center>
+ <center><img src='./image/content.PNG' width=600></center>
 
 `Bonus : une solution pour récupérer un document dans son entièreté est attendue`
  use this api to upload all content of documents :
