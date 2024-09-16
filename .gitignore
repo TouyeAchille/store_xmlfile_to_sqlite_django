@@ -8,5 +8,5 @@ xml2database/xml2database/__pycache__/
 # ignore sqlite database file
 db.sqlite3
 
-image/*.PNG
+
 workspace-venv/
