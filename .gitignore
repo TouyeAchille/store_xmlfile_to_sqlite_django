@@ -1,0 +1,12 @@
+# ignore python bytecode
+*.pyc
+xml2database/documents/__pycache__/
+ml2database/documents/migrations/__pycache__/
+xml2database/documents/tests/__pycache__/
+xml2database/xml2database/__pycache__/
+
+# ignore sqlite database file
+db.sqlite3
+
+image/*.PNG
+workspace-venv/
