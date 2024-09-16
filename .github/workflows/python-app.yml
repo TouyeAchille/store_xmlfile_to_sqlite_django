@@ -25,19 +25,25 @@ jobs:
         python-version: "3.12.4"
     - name: Install dependencies
       run: |
+        cd store_xmlfile_to_sqlite_django/xml2database
         make install
     - name: Lint with black
       run: |
+       cd store_xmlfile_to_sqlite_django/xml2database
         make format
     - name: Test with pytest-django
       run: |
+        cd store_xmlfile_to_sqlite_django/xml2database
         make test
     - name: make migrations
       run: |
+        cd store_xmlfile_to_sqlite_django/xml2database
         make check  
     - name: push migration
       run: |
+        cd store_xmlfile_to_sqlite_django/xml2database      
         make check  
     - name: check migration
       run: |
+        cd store_xmlfile_to_sqlite_django/xml2database
         make check   
