@@ -35,14 +35,14 @@ jobs:
       run: |
         cd xml2database
         make test
-    - name: make migrations
+    - name: makemigrations
       run: |
         cd xml2database
-        make check  
+        make migration 
     - name: push migration
       run: |
         cd xml2database      
-        make check  
+        make migrate
     - name: check migration
       run: |
         cd xml2database
